@@ -1,0 +1,322 @@
+body{
+	min-width: 980px;
+	    font: 400 14px/1.5 'Hiragino Sans GB','WenQuanYi Micro Hei',tahoma,sans-serif;
+}
+.g-head{
+	width: 100%;
+}
+.g-head .m-logo {
+	height:54px;
+	width:980px;
+	margin: 40px auto 30px;
+}
+.g-head .m-logo  a{
+	display:block;
+	width: 980px;
+	height: 100%;
+	background-image: url('../images/pic.png');
+	background-position: -188px -782px;
+	background-size: initial;
+	overflow: hidden;
+	text-indent: -9999px;
+	color: #2bb8aa;
+}
+
+.g-main{
+	width: 980px;
+	margin: 0 auto;
+}
+.g-main .m-pic{
+	display: inline-block;
+	width: 480px;
+	height: 370px;
+	margin-right: 115px;
+}
+.g-main .m-login{
+	display:inline-block;
+	vertical-align:top;
+	width: 270px;
+	/*height: 273px;*/
+	
+}
+.g-main .m-login .u-remind{
+	visibility: hidden;
+	min-height:18px;
+	margin: 10px auto;
+	padding: 10px;
+    border: 1px solid #f5d8a7;
+    border-radius: 2px;
+    background: #fff6db;
+    font-size: 12px;
+}
+.g-main .m-login .u-title span{
+	color:#666;
+	font-weight: 400;
+	font-size:14px;
+}
+.g-main .m-login .u-title a{
+	position: relative;
+	padding-right: 16px;
+	font-weight: 400;
+	color: #666;
+	font-size: 12px;
+
+}
+.g-main .m-login .u-title a:hover{
+	text-decoration: underline;
+}
+.g-main .m-login  i{
+	display: inline-block;
+	position: absolute;
+}
+.g-main .m-login .u-title a i{
+	width: 14px;
+	height: 14px;
+	top: 50%;
+	margin-top: -7px;
+	background-image: url('../images/pic.png');
+	background-position: -597px -677px;
+}
+.g-main .m-login .u-user{
+	position:relative;
+}
+.g-main .m-login .u-user i{
+	position: absolute;
+	top:20px;
+	left: 10px;
+	width:18px;
+	height:18px;
+	background-image: url('../images/pic.png');
+}
+.g-main .m-login .u-user .avatar{
+	
+	background-position: -1250px -617px;
+
+}
+.g-main .m-login .u-user  input{
+	width: 230px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 10px;
+    padding: 5px 5px 5px 33px;
+    vertical-align: top;
+    font-family: inherit;
+    font-size: 14px;
+    border: 1px solid #aaa;
+}
+.g-main .m-login .u-user  input:focus{
+    border-color: #2bb8aa;
+    outline: 0;
+}
+.g-main .m-login .u-user .pass{
+	background-position: -1250px -527px;
+}
+.g-main .m-login .u-verify{
+	position: relative;
+	display: none;
+	margin-top:10px;
+}
+.g-main .m-login .u-verify .icon{
+	position: absolute;
+	top: 10px;
+	left: 6px;
+	width: 18px;
+	height: 18px;
+	background: url('../images/pic.png');
+	background-position: -1250px -653px;
+}
+.g-main .m-login .u-verify .verm{
+
+    width: 48px;
+	height: 24px;
+    padding: 5px;
+    padding-left: 33px;
+
+    border: 1px solid #aaa;
+    line-height: 24px;
+    vertical-align: top;
+    outline: 0;
+}
+
+.g-main .m-login .u-verify .verimg{
+	height: 34px;
+    width: 61px;
+    border: 1px solid #CCC; 
+    cursor: pointer;
+}
+.g-main .m-login .u-verify a{
+	font-size: 12px;
+    line-height: 36px;
+    vertical-align: top;
+    color: #2bb8aa;
+	
+}
+.g-main .m-login .u-verify a:hover{
+	text-decoration: underline;
+}
+.g-main .m-login  .u-vernum .verbtn{
+	padding: 1px 8px 0;
+	font-family: inherit;
+    font-size: 12px;
+    color: #333;
+    background-color: #dedede;
+    border: 1px solid #e3e3e3;
+    border-bottom: 1px solid #aaa;
+    background-repeat: repeat-x;
+    border-radius: 2px;
+    font-weight: 200;
+    outline: none;
+}
+.g-main .m-login  .u-vernum .getinfo{
+	visibility: hidden;
+}
+.g-main .m-login  .u-vernum span{
+	font-size: 12px;
+	color: #666;
+}
+.g-main .m-login  .u-vernum .verbtn:active{
+	background-image: linear-gradient(to bottom,#ddd,#eee);
+}
+.g-main .m-login .u-vernum{
+	display: none;
+	padding-top: 6px;
+}
+.g-main .m-login .u-autologin{
+	display: inline-block;
+	width:100%;
+	margin-top: 10px;
+}
+.g-main .m-login .u-autologin .check{
+	padding-left: 2px;
+	font-size: 12px ;
+	font-family: inherit;
+
+}
+.g-main .m-login .u-autologin a:hover {
+	text-decoration: underline;
+}
+.g-main .m-login .u-autologin .fdp{
+	display: block;
+	float: right;
+	font-size:12px;
+	color: #2bb8aa;
+}
+.g-main .m-login .u-commit{
+	width: 100%;
+}
+.g-main .m-login .u-commit .btn{
+	width:100%;
+	height: 40px;
+    margin-top: 10px;
+	color: #fff;
+	font-family: inherit;
+	font-size: 16px;
+    outline: none;
+    background-color: #2db3a6;
+    border-color: #2db3a6;
+}
+.g-main .m-login .u-commit .btn:hover{
+    background-image: linear-gradient(to bottom,#2bb8aa,#2eb7aa);
+}
+.g-main .m-login .u-regst{
+	margin-top:10px;
+	color: #666;
+}
+.g-main .m-login .u-regst a{
+	color: #2bb8aa;
+	text-decoration: none;
+}
+.g-main .m-login .u-wrap{
+	position: relative;
+	margin-top: 20px;
+	color: #666;
+}
+.g-main .m-login .u-wrap .coopreat{
+	text-align: center;
+}
+.g-main .m-login .u-wrap .coopreat::after{
+	position: absolute;
+	top: -9px;
+	right: -3px;
+	content: '________';
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3px;
+	color: #ccc;
+}
+.g-main .m-login .u-wrap .coopreat::before{
+	position: absolute;
+	top: -9px;
+	left: -4px;
+	content: '________';
+	display: inline-block;
+	vertical-align: middle;
+	padding: 3px;
+	color: #ccc;
+}
+.g-main .m-login .u-wrap .log{
+	padding-left: 88px;
+}
+.g-main .m-login .u-wrap .log a{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 20px;
+	margin-top: 20px;
+	background-image:url('../images/pic.png');
+}
+.g-main .m-login .u-wrap .log .tencent{
+	background-position: -1250px -491px;
+}
+.g-main .m-login .u-wrap .log .tencent:hover{
+	background-position: -1250px -509px;
+}
+
+.g-main .m-login .u-wrap .log .sina{
+	background-position: -1250px -599px;
+}
+.g-main .m-login .u-wrap .log .sina:hover{
+	background-position: -1250px -545px;
+}
+.g-foot{
+	width: 980px;
+	margin: 60px auto 40px;
+	font-size: 12px;
+	font-family: inherit;
+	
+}
+.g-foot a{
+	color: #999;
+}
+.g-foot a:hover{
+	text-decoration: underline;
+}
+.g-foot .m-siteinfo{
+	margin-bottom: 20px;
+    padding: 12px 0;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+.g-foot .m-siteinfo .u-info li{
+	
+	margin: 5px 0;
+    padding: 0 16px;
+    line-height: 14px;
+    border-right: 1px solid #EEE;
+}
+.g-foot .m-siteinfo .u-info li:nth-child(1){
+	padding-left: 0;
+}
+
+.g-foot .m-copyright p a{
+	color: #999;
+	
+}
+.g-foot .m-copyright p{
+	font-size: 12px;
+	color: #999;
+}
+#ver{
+	width:100px;
+}

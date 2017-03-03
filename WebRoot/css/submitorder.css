@@ -1,0 +1,389 @@
+body{
+	font: 400 14px/1.5 "Hiragino Sans GB","WenQuanYi Micro Hei",tahoma,sans-serif;
+    color: #666;
+    background-color: #fff;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.tri{
+    height: 0;
+    width: 0;
+    line-height: 0;
+    font-size: 0;
+    border: 3px dashed transparent;
+}
+.m-top{
+    height: 29px;
+    font-size: 12px;
+    border-top: 1px solid #eee;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 2px #ddd, 0 0 5px 3px #eee;
+    background: #f9f9f9;
+}
+.m-top .u-user{
+    width: 980px;
+    margin: 0 auto;
+    z-index: 90;
+}
+.m-top .u-user .dropdown{
+    position: relative;
+    vertical-align: top;
+}
+.m-top .u-user .u-binfo .keep,.m-top .u-user .u-binfo .userinfo{
+    padding: 6px 8px 6px 0;
+    height: 16px;
+    vertical-align: top;
+}
+
+.m-top .u-user .u-binfo .userinfo{
+    color: #666;
+}
+.m-top .u-user .u-binfo .userinfo a{
+     color: #666;
+}
+.m-top .u-user .u-binfo .userinfo a:hover{
+    text-decoration: underline;
+}
+.m-top .u-user .u-binfo .userinfo .username{
+
+    color: #2bb8aa;
+}
+.m-top .u-user .u-binfo .userinfo .username:hover{
+    text-decoration: underline;
+}
+.m-top .u-user .u-binfo .userinfo .quit{
+    margin-left: 40px;
+}
+.m-top .u-user .u-binfo .userinfo .quit:hover{
+    color: #2bb8aa;
+
+}
+.m-top .u-user .u-binfo .dropdown{
+    display: none;
+}
+.m-top .u-user .userfuc .orders{
+    padding: 4px 8px;
+}
+.m-top .u-user .userfuc .orders:hover a{
+
+    color: #2bb8aa;
+}
+.m-top .u-user .userfuc .unav{
+    display: inline-block;
+    position: relative;
+    padding: 4px 20px 4px 12px;
+    margin: 0 0px;
+    color: #666;
+    z-index: 93;
+}
+
+.m-top .u-user .userfuc  .drop-menu{
+    position: absolute;
+    display: none;
+    top: 27px;
+    right: 0px;
+    padding: 10px 0px;
+    border: 1px solid #ddd;
+    color: #666;
+    background: #fff;
+    z-index: 92;
+    box-shadow: 1px 1px 2px rgba(203,203,203,.5);
+}
+.m-top .u-user .userfuc .unav:hover .tri{
+   border-top-color: transparent;
+   border-bottom: 3px solid #2bb8aa;
+   top: 11px;
+}
+.m-top .u-user .userfuc .tri{
+    display: block;
+    position: absolute;
+    top: 14px;
+    right: 7px;
+    border-top: 3px solid #999;
+}
+.m-top .u-user .userfuc .dropdown:hover .unav{
+    color: #2bb8aa;
+}
+.m-top .u-user .userfuc .dropdown:hover{
+    color: #2bb8aa;
+    text-decoration: underline;
+    background: #f9f9f9;
+    border: none;
+}
+.m-top .u-user .userfuc .dropdown:hover .drop-menu{
+    display: block;
+}
+.m-top .u-user .userfuc .dropdown .vertical-bar{
+    position: absolute;
+    right: -2px;
+    top: 10px;
+    display: block;
+    height: 12px;
+    width: 1px;
+    background: #ddd;
+    z-index: 94;
+}
+.m-top .u-user .userfuc li:nth-child(2) .drop-menu{
+    width: 80px;
+} 
+.m-top .u-user .userfuc li:nth-child(3) .drop-menu{
+    width: 219px;
+}
+.m-top .u-user .userfuc li:nth-child(4) .drop-menu{
+    width: 92px;
+}
+.m-top .u-user .userfuc li:nth-child(5) .drop-menu{
+    width: 97px;
+}
+.m-top .u-user .userfuc li:nth-child(7) .drop-menu{
+    width: 90px;
+}
+.m-top .u-user .userfuc .dropdown .drop-menu .item{
+    display: block;
+    padding: 0 12px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    background: #fff;
+    color: #666;
+    transition: background .2s ease-in;
+
+}
+.m-top .u-user .userfuc .dropdown .drop-menu .item:hover{
+    color: #2bb8aa;
+    background: #f9f9f9;
+}
+.m-top .u-user .userfuc>li:hover{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: none;
+
+}
+.m-top .u-user .userfuc>li:hover.vertical-bar{
+    opacity: 0;
+
+}
+.m-top .u-user .userfuc>li:hover .drop-menu{
+    border-top: none;
+}
+.m-top .u-user .userfuc li:nth-child(7) .drop-menu .item{
+    padding: 0 8px;
+}
+.g-head .m-main{
+	width: 980px;
+	margin: 0 auto;
+}
+.g-head .m-main .u-logo{
+	display: inline-block;
+	margin-top: 21px;
+}
+.g-head .m-main .u-logo img{
+	width: 82px;
+    height: 54px;
+}
+.g-head .m-main .u-process{
+	width: 580px;
+	margin: 36px 0 0 25px;
+}
+.g-head .m-main .u-process .processlist{
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.g-head .m-main .u-process .processlist .step{
+	float: left;
+	width: 33.333333333333%;
+	font-size: 12px;
+	color: #999;
+	font-family: inherit;
+	text-align: center;
+	line-height: 30px;
+}
+.g-head .m-main .u-process .processlist .current{
+	color: #666;
+}
+.g-head .m-main .u-process .processpic{
+	height: 3px;
+	width: 100%;
+	padding: 1px;
+	background: #eee;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.g-head .m-main .u-process .processpic .process-bar{
+	height: 100%;
+	width: 33.333333333333%;
+    background: #2bb8aa;
+}
+.g-head .m-main  .icon{
+    display:block;
+    width: 171px;
+    height: 41px;
+    margin-top: 29px;
+    margin-right: 53px;
+    background: url('../images/pay/icon.png');
+    background-position: -62px 0px;
+    background-repeat: no-repeat;
+    background-size: 315px;
+}
+.g-main .m-body{
+	width: 980px;
+	margin: 0 auto;
+}
+.g-main .m-body .project{
+	margin-bottom: 10px;
+
+}
+.g-main .m-body .project .table-box  {
+	font-size: 12px;
+
+}
+.g-main .m-body .project .table-box  table  tr{
+	 display: table-row;
+} 
+.g-main .m-body .project .table-box  table th{
+	padding: 6px 12px;
+    border-bottom-style: solid;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    background: #F7F7F7;
+    border: none;
+}
+.g-main .m-body .project .table-box  table td{
+	padding: 12px;
+	border-bottom: 1px dotted #e5e5e5;
+	color: #666;
+	font-size: 14px;
+}
+.g-main .m-body .project .table-box  table td a{
+	color: #666;
+
+}
+.g-main .m-body .project .table-box  table   .desc{
+	width: 500px;
+	padding-left: 16px;
+	text-align: left;
+}
+.g-main .m-body .project .table-box  table   .desc a:hover{ 
+	text-decoration: underline;
+}
+.g-main .m-body .project .table-box  table   .price{
+	text-align: center;
+	width: 100px;
+}
+.g-main .m-body .project .table-box  table   .number{
+	text-align: center;
+	width: 180px;
+}
+.g-main .m-body .project .table-box  table   .total{
+	text-align: right;
+}
+.g-main .m-body .project .table-box  table .quantity   button{
+	display: inline-block;
+    height: 34px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 6px 2px;
+    color: #666;
+    background: #eee;
+    outline: 0;
+    cursor: pointer;
+}
+.g-main .m-body .project .table-box  table .quantity .num{
+	font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    width: 40px;
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    outline: 0;
+}
+.g-main .m-body .project .table-box  table .quantity .minus{
+	margin-right: -3px;
+}
+.g-main .m-body .project .table-box  table .quantity .add{
+	margin-left: -3px;
+}
+
+.g-main .m-body .project .table-box  table .discount .card .cardcode .ring{
+	margin-bottom: 10px;
+	font-size: 12px;
+
+}
+.g-main .m-body .project .table-box  table .discount .card .cardcode .box{
+   
+	width: 394px;
+	float: right;
+	padding: 25px 10px 20px 0px;
+	font-size: 12px;
+	background: #F7F7F7;
+	border-bottom: 1px dotted #e5e5e5;
+	border-top: 1px dotted #e5e5e5;
+}
+.g-main .m-body .project .table-box  table .discount .card .cardcode .box .quananswer{
+	width: 220px;
+    height: 13px;
+    padding: 5px;
+	
+    border: 1px solid #ccc;
+    line-height: 13px;
+    
+}
+.g-main .m-body .project .table-box  table .discount .card .cardcode .box .quananswer:focus{
+	box-shadow: inset 0 1px 2px #ccc;
+    border-color: #2bb8aa;
+}
+.g-main .m-body .project .table-box  table .discount .card .cardcode .box .addquan{
+	margin-right: 10px;
+}
+.g-main .m-body .project .table-box  table .discount .card .cardcode .box .verfy{
+    height: 20px;
+    padding: 4px 8px 6px;
+    font-size: 12px;
+    background-color: #2db3a6;
+    color: #fff;
+
+}
+.g-main .m-body .project .table-box  table .discount .card .cardcode .box .remind{
+    margin-top: 10px;
+}
+.g-main .m-body .project .bindnewphone{
+	margin: 10px 0;
+    font-size: 12px;
+}
+.g-main .m-body .project .bindnewphone .link{
+	padding-left: 4px;
+	color: #2bb8aa;
+}
+.g-main .m-body .project .bindnewphone .link:hover{
+	text-decoration: underline;
+}
+.g-main .m-body .project .submit-box{
+	
+	padding-right: 60px;
+}
+.g-main .m-body .project .submit-box .submit-btn{
+	width: 128px;
+	height: 40px;
+	line-height: 40px;
+    padding: 0 20px ;
+    background-color: #2db3a6;
+
+    border: none;
+	color: #fff;
+	font-size: 20px;
+}
+.g-main .m-body .project .submit-box .submit-btn:hover{
+	background-color: #2eb7aa;
+}

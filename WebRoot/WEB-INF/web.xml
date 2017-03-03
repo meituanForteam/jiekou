@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>mei_tuan</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SCaptchaServlet</servlet-name>
+    <servlet-class>com.meituan.Scaptcha.SCaptchaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>SCaptchaServlet</servlet-name>
+    <url-pattern>/servlet/SCaptchaServlet</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>smsUtil</servlet-name>
+    <servlet-class>com.meituan.sms.smsUtil</servlet-class>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUpload</servlet-name>
+    <servlet-class>com.meituan.fileupload.FileUpload</servlet-class>
+    <init-param>
+			<param-name>uploadPath</param-name>
+			<param-value>
+				F:\\Program Files\\workspace\\mei_tuan\\WebRoot\\cms\\pimages\\
+			</param-value>
+		</init-param>
+  </servlet>
+
+    <servlet-mapping>
+    <servlet-name>smsUtil</servlet-name>
+    <url-pattern>/servlet/smsUtil</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileUpload</servlet-name>
+    <url-pattern>/servlet/FileUpload</url-pattern>
+  </servlet-mapping>
+</web-app>

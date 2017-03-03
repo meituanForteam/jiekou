@@ -1,0 +1,194 @@
+body{
+	min-width: 980px;
+	color:  #666;
+	font: 400 14px/1.5 'Hiragino Sans GB','WenQuanYi Micro Hei',tahoma,sans-serif;
+}
+.form-field{
+	position: relative;
+    padding: 8px 0 8px 110px;
+}
+.g-head{
+	border-bottom: 2px solid #2bb8aa;
+}
+.m-wrap{
+	width: 980px;
+	margin: 10px auto 0;
+	padding: 10px 0;
+}
+.m-wrap .u-logo{
+	display: block;
+	width: 54px;
+	height: 36px;
+	background-image: url('../images/pic.png');
+	background-position: -759px -722px;
+}
+.m-wrap .u-login span{
+	font-family: inherit;
+	font-size: 14px;
+	color: #666;
+}
+.m-wrap .u-login .u-lobtn{
+	font-size: 12px;
+	padding: 3px 10px;
+	background-color: #2db3a6;
+	color: #fff;
+	font-weight: 400;
+}
+.g-main {
+	width: 980px;
+	margin: 0px auto 30px;
+	padding-top: 30px;
+	min-height: 300px;
+}
+.g-main .m-signUp .form-field{
+	position: relative;
+}
+
+.g-main .m-signUp .inline-link{
+	margin: 0 0 0 4px;
+    font-size: 12px;
+    line-height: 36px;
+    vertical-align: top;
+}
+.g-main .m-signUp .inline-link:hover{
+	text-decoration: underline;
+}
+.g-main .m-signUp  form .f-text:focus{
+  border-color: #2bb8aa;
+  outline: 0;
+}
+.g-main .m-signUp  form label{
+	position: absolute;
+	left: 0;
+    width: 100px;
+    padding-top: 6px;
+    font-size: 14px;
+    text-align: right;
+    color: #333;
+}
+.g-main .m-signUp  form .tipstatus{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	background-image: url('../images/icon.png');
+	background-position:  0 -296px;
+}
+.g-main .m-signUp  form .f-text{
+	width: 248px;
+    height: 24px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    line-height: 24px;
+    vertical-align: top;
+}
+.g-main .m-signUp  form .u-mobile .tipstatus{
+	
+}
+.g-main .m-signUp  form .u-mobile .derictlogin{
+	padding-left: 10px;
+	color: #2bb8aa;
+}
+.g-main .m-signUp  form .u-mobile .derictlogin:hover{
+	text-decoration: underline;
+}
+.g-main .m-signUp  form .u-mobile .native{
+	margin-left: 4px;
+    padding: 6px 0;
+    line-height: 24px;
+    font-size: 12px;
+    color: #999;
+    vertical-align: top;
+}
+.g-main .m-signUp  form .inline-tip{
+	display: none;
+    margin-left: 4px;
+    padding: 6px 4px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #999;
+    vertical-align: top;
+}
+
+.g-main .m-signUp  form  .pwstrengthbox{
+	display: block;
+	position: absolute;
+    width: 258px;
+    /*height: 20px;*/
+    top: 50px;
+    left: 110px;
+    background: #eee;
+}
+.g-main .m-signUp  form  .pwstrengthbox .length{
+	/*position: absolute;*/
+	/*left: 0;
+	top: 0;*/
+}
+.g-main .m-signUp  form  .pwstrengthbox .length .primary{
+	background: #eee;
+}
+
+.g-main .m-signUp  form  .pwstrengthbox .length .weak{
+	background: #f76120;
+}
+.g-main .m-signUp  form  .pwstrengthbox .length .medium{
+	background: #ff8900;
+}
+.g-main .m-signUp  form  .pwstrengthbox .length .tough{
+	background: #5bab3c;
+}
+.g-main .m-signUp  form  .pwstrengthbox  .pwstrength{
+	display: block;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 84px;
+    background: #eee;
+    border-right: 2px solid #fff;
+    color: #fff;
+}
+.g-main .m-signUp  form .u-pwd2{
+	margin-top: 20px;
+}
+.g-main .m-signUp  .u-vbtn{
+	display: none;
+}
+.g-main .m-signUp  form .u-vbtn .verimg{
+	width:60px;
+	height:34px;
+	border: 1px solid #CCC;
+    cursor: pointer;
+}
+.g-main .m-signUp  .u-vbtn .pic{
+	width: 120px;
+}
+.g-main .m-signUp  .u-vbtn .tipstatus{
+}
+.g-main .m-signUp  .u-vbtn a{
+	color: #2bb8aa;
+}
+
+.g-main .m-signUp .u-agre .btn{
+	background-color: #2db3a6;
+	color: #fff;
+	border-color: #008177;
+	font-weight: 400;
+	font-size: 14px;
+	outline: 0;
+}
+.g-main .m-signUp .term{
+	/*position: relative;*/
+    padding: 3px 10px 3px 110px;
+    margin: 0 auto 8px;
+}
+.g-main .m-signUp .term a{
+	font-size: 12px;
+	color: #2bb8aa;
+}
+.g-main .m-signUp .term a:hover{
+	text-decoration: underline; 
+}
+#ver{
+	width:100px;
+}

@@ -1,0 +1,432 @@
+body{
+	min-width: 950px;
+	background: #eff0f1;
+	font:12px  tahoma,arial;
+	color: #4d4d4d;
+}
+.g-head{
+	height: 26px;
+	background: url('../images/pay/topbg.png');
+    background-repeat: repeat-x;
+}
+.g-head .m-top{
+	width: 950px;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 26px;
+	font-family: inherit;
+}
+.g-head .m-top span{
+    padding: 0 15px;
+    
+}
+
+.g-head .m-top a{
+	padding: 0 15px;
+	color: #fff;
+	background: url('../images/pay/topbg.png') ;
+}
+.g-head .m-top a:hover{
+	text-decoration: underline;
+}
+.g-title{
+	height: 60px;
+	background: #fff;
+}
+.g-title .m-main{
+	width: 950px;
+	margin: 0 auto;
+	color: #676d70;
+}
+.g-title .m-main .u-logo{
+	float: left;
+	width: 114px;
+	height: 40px;
+	margin-top: 10px;
+	background-image: url('../images/pay/zhi.png');
+	background-repeat: no-repeat;
+}
+.g-title .m-main .tit{
+	float: left;
+	height: 20px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei",微软雅黑,"宋体";
+    border-left: 1px solid #676d70;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.g-main{
+	margin-top:10px;
+}
+.g-main .m-body{
+	width: 950px;
+	margin: 0 auto;
+}
+.g-main .m-body .u-order{
+	position: relative;
+
+}
+.g-main .m-body .u-order .detail{
+	padding: 16px 23px;
+	color: #000;
+}
+.g-main .m-body .u-order .detail .remind .tip{
+	cursor: pointer;
+    color: #08c
+}
+.g-main .m-body .u-order  .con{
+	padding-top: 14px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.g-main .m-body .u-order  .ordernum{
+	max-width: 400px;
+	font-weight: 700;
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+.g-main .m-body .u-order  .savemoney{
+	max-width: 165px;
+	margin-left: 20px;
+}
+.g-main .m-body  .u-order .money{
+	position: absolute;
+	display: block;
+	bottom: 36px;
+	right: 23px;
+	font-size: 22px;
+	font-family: "Microsoft YaHei";
+    line-height: 22px;
+	color: #f60;
+}
+.g-main .m-body .u-order  .dialog{
+	display: none;
+	width: 360px;
+	margin: 2px;
+	position: absolute;
+	top: 1px;
+	left: 169px;
+	border: solid 1px #B3B3B3;
+	background: #fff;
+}
+
+.g-main .m-body .u-order  .dialog .tit{
+	padding: 10px 12px 0;
+	font-weight: 700;
+    color: #4D4D4D;
+}
+.g-main .m-body .u-order  .dialog .text{
+	padding: 5px 12px 10px; 
+
+}
+.g-main .m-body .u-order .hide{
+	padding: 16px 23px;
+	color: #000;
+	border-bottom: 3px solid #b3b3b3;
+	display: none;
+}
+.g-main .m-body .u-order .hide dl{
+	
+}
+.g-main .m-body .u-order .hide dl dt{
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	
+}
+.g-main .m-body .u-order .hide dl dd{
+	text-align: left;
+    border: 1px solid #eff0f1;
+	padding: 0px 0px 0px 0px;
+}
+.g-main .m-body .u-order .linkxq{
+	display: block;
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	height: 22px;
+	line-height: 22px;
+    padding: 2px 8px 1px;
+    font-weight: 700;
+    border-top: 0;
+    background: #b3b3b3;
+    z-index: 100;
+    color: #fff;
+}
+.g-main .m-body .u-order .linkxq:hover{
+	text-decoration: underline;
+}
+.g-main .m-body .u-order .linkhide{
+	top: 167px;
+	display: none;
+}
+.g-main .m-body .u-container{
+   position: relative;
+   overflow: hidden;
+   width: 950px;
+   min-height: 460px;
+   background-color: #fff;
+   border-bottom: 3px solid #b3b3b3;
+   border-top: 3px solid #b3b3b3;
+   
+}
+.g-main .m-body .u-container .money{
+	font-size: 22px;
+	font-family: "Microsoft YaHei";
+    line-height: 22px;
+    font-weight: 700;
+	color: #f60;
+}
+.g-main .m-body .u-container .mainbox{
+	width: 1800px;
+	position: absolute;
+	background: #fff;
+}
+.g-main .m-body .u-container .cash{
+	width: 803px;
+}
+
+.g-main .m-body .u-container .cash .payarea{
+	width: 300px;
+	margin: 20px auto;
+	text-align: center;
+}
+.g-main .m-body .u-container .cash .payarea .head{
+	margin-top: 60px;
+	margin-bottom: 20px;
+
+}
+.g-main .m-body .u-container .cash .payarea .head .money{
+	padding-top:10px;
+	font-size: 26px;
+	font-weight: bold;
+}
+.g-main .m-body .u-container .cash .payarea .imgwrap{
+	position: relative;
+    width: 168px;
+    height: auto;
+    min-height: 168px;
+    margin: 0 auto;
+    padding: 6px;
+    border: 1px solid #d3d3d3;
+    -webkit-box-shadow: 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.g-main .m-body .u-container .cash .payarea .imgwrap .img{
+	position: relative;
+	width: 168px;
+	height: 168px;
+	text-align:center;
+    background: url('../images/pay/data.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.g-main .m-body .u-container .cash .payarea .imgwrap .img img{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 42px;
+    height: 42px;
+    margin-left: -21px;
+    margin-top: -21px;
+}
+.g-main .m-body .u-container .cash .payarea .imgwrap .explain{
+	margin: 10px 0 6px;  
+}
+.g-main .m-body .u-container .cash .payarea .imgwrap .explain img{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.g-main .m-body .u-container .cash .payarea .imgwrap .explain .textinfo{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.g-main .m-body .u-container .cash .payarea .imgwrap{
+
+}
+.g-main .m-body .u-container .cash .payarea .foot{
+	height: 65px;
+	padding: 10px 0;
+	text-align: center;
+}
+.g-main .m-body .u-container .cash .payarea .foot .text a{
+	font-size: 12px;
+	color: #a6a6a6;
+
+}
+.g-main .m-body .u-container .cash .payarea .foot .text a:hover{
+	text-decoration: underline;
+}
+.g-main .m-body .u-container .cash .guidearea{
+	position: absolute;
+	top: 62px;
+    left: 505px;
+    width: 204px;
+    height: 183px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.g-main .m-body .u-container .switch{
+	width: 146px;
+    height: 400px;
+    padding-top: 126px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+    /*padding-right: 10px;
+    margin-left: -10px;*/
+    border-left: 1px solid #d9d9d9;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+.g-main .m-body .u-container .switch .switch-tip{
+	text-align: center;
+}
+.g-main .m-body .u-container .switch .switch-tip .btn{
+    display: inline-block;
+    /* width: 95px;
+    height: 28px;*/
+    margin: 18px auto 0;
+    padding: 10px 14px;
+    border: 1px solid #0fa4db;
+    background-color: #00aeef;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+    
+.g-main .m-body .u-container .switch .switch-tip .iconwrap{
+	position: relative;
+}
+.g-main .m-body .u-container .switch .switch-tip .iconfont{
+	display: block;
+	/*position: relative;*/
+	z-index: 10;
+    margin-top: 4px;
+    font-size: 78px;
+	color: #a6a6a6;
+}
+.g-main .m-body .u-container .switch .switch-tip .iconwrap img{
+	position: absolute;
+	z-index: 11;
+}
+.g-main .m-body .u-container .switch .tip1 {
+	
+}
+.g-main .m-body .u-container .switch .tip2{
+	display: none;
+}
+.g-main .m-body .u-container .switch .tip1 .iconwrap img{
+	width: 50px;
+	height: 17px;
+	left: 48px;
+    top: 24px;
+}
+.g-main .m-body .u-container .switch .tip2 .iconwrap img{
+   width: 30px;
+   height: 30px;
+   left: 58px;
+   top: 24px;
+
+}
+.g-main .m-body .u-container .switch .tip2 p{
+   font-size: 16px;
+   font-family: tahoma, arial;
+   /* color: #4d4d4d;*/
+}
+.g-main .m-body .u-container .view{
+   width: 803px;
+   height: 460px;
+   border-bottom: 3px solid #b3b3b3;
+   background: #fff;
+}
+.g-main .m-body .u-container .view .loginbox{
+    padding: 60px 0 20px 238px;
+    width: 350px;
+    height: 50px;
+
+}
+.g-main .m-body .u-container .view .loginbox .login-tit{
+	border-bottom: 2px solid #CBCBCB;
+    padding: 10px 0;
+}
+.g-main .m-body .u-container .view .loginbox .login-tit .leftarea p{
+	font-size: 20px;
+	color: #000;
+}    
+.g-main .m-body .u-container .view .loginbox .login-tit .rightarea a{
+    font-size: 14px;
+    color: rgb(21, 137, 202);
+}
+.g-main .m-body .u-container .view .loginbox .login-tit .rightarea a:hover{
+	text-decoration: underline;
+}
+.g-main .m-body .u-container .view .loginbox .subform  .tit label{
+	float: left;
+	font-size: 14px;
+	color: inherit;
+}
+.g-main .m-body .u-container .view .loginbox .subform  .tit .alink{
+	float: right;
+	font-size: 12px;
+	font-weight: 400;
+	color: rgb(21, 137, 202);	
+}
+.g-main .m-body .u-container .view .loginbox .subform  .tit .alink:hover{
+	text-decoration: underline;
+}
+.g-main .m-body .u-container .view .loginbox .subform .login-panel input{
+	height: 24px;
+    width: 328px;
+    padding: 7px 10px;
+    margin-top:10px;
+    font-size: 14px;
+    border: 1px solid #CCC;
+}
+.g-main .m-body .u-container .view .loginbox .subform .login-panel input:focus{
+	border-color: #07F;
+    outline: 1px solid #8cddff;
+}
+.g-main .m-body .u-container .view .loginbox .subform .login-panel .user,.g-main .m-body .u-container .view .loginbox .subform .login-panel .pass,.g-main .m-body .u-container .view .loginbox .subform .login-panel .btn{
+	margin-top:20px;
+}
+.g-main .m-body .u-container .view .loginbox .subform .login-panel .pass .tip{
+	margin-top: 10px;
+}
+.g-main .m-body .u-container .view .loginbox .subform .login-panel .pass .tip .payword{
+	color: red;
+}
+.g-main .m-body .u-container .view .loginbox .subform .login-panel .btn {
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 20px;
+	text-align:center;
+	border: 1px solid #0fa4db;
+    background: #00aeef;
+	font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+.g-main .m-body .u-container .view .loginbox .subform .login-panel .btn  a{
+	color: #fff;
+}
+.g-main .m-body .u-container .view .loginbox .subform .login-panel .btn:hover{
+	background: #05b5f7;
+}
+.g-foot{
+	margin: 30px 0 50px;
+}
+.g-foot .m-content{
+	width: 950px;
+	margin: 0 auto;
+	text-align: center;
+}
+.g-foot .m-content  .img{
+	margin-top: 20px;
+}
+

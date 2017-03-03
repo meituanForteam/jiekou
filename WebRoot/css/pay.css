@@ -1,0 +1,251 @@
+body{
+	color: #666;
+    font-size: 14px;
+    font-family: PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,tahoma,sans-serif;
+}
+.g-head .m-top{
+	width: 980px;
+	margin: 0 auto;
+	height: 99px;
+	padding: 5px 0;
+	border-bottom: 1px solid #eee;
+}
+.g-head .m-main .u-logo{
+	display: inline-block;
+	margin-top: 21px;
+}
+.g-head .m-main .u-logo img{
+	width: 82px;
+    height: 54px;
+}
+.g-head .m-main .u-process{
+	width: 580px;
+	margin: 36px 0 0 25px;
+}
+.g-head .m-main .u-process .processlist{
+	width: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.g-head .m-main .u-process .processlist .step{
+	float: left;
+	width: 33.33333333333%;
+	font-size: 12px;
+	color: #999;
+	font-family: inherit;
+	text-align: center;
+	line-height: 30px;
+}
+.g-head .m-main .u-process .processlist .current{
+	color: #666;
+}
+.g-head .m-main .u-process .processpic{
+	height: 3px;
+	width: 100%;
+	padding: 1px;
+	background: #eee;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.g-head .m-main .u-process .processpic .process-bar{
+	height: 100%;
+	width: 66.666666666666%;
+    background: #2bb8aa;
+}
+.g-head .m-main  .icon{
+	display:block;
+	width: 171px;
+    height: 41px;
+    margin-top: 29px;
+    background: url('../images/pay/icon.png');
+    background-position: -62px 0px;
+	background-repeat: no-repeat;
+	background-size: 315px;
+}
+.g-body{
+	margin-bottom: 100px;
+}
+.g-body .m-main{
+	width: 980px;
+	margin: 0 auto ;
+}
+.g-body .m-main .order {
+	margin: 20px 0;
+    line-height: 24px;
+}
+.g-body .m-main .order .ordername{
+	display: inline-block;
+	color: #333;
+    width: 600px;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: 15px;
+} 
+.g-body .m-main .order .money{
+	text-align: right;
+}
+.g-body .m-main .order .money .price{
+	color: #f76120;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: arial,sans-serif;
+}
+.g-body .m-main .payment .payment-type{
+	position: relative;
+}
+.g-body .m-main .payment .payment-type ul li{
+	float: left;
+}
+.g-body .m-main .payment .payment-type .menu{
+	height: 42px;
+    border-bottom: 2px solid #2bb8aa;
+} 
+.g-body .m-main .payment .payment-type .menu .pay-tab{
+	 line-height: 22px;
+	 padding: 10px 15px;
+	 cursor: pointer;
+}
+
+.g-body .m-main .payment .payment-type .menu .current{
+	color: #000;
+    background: #fff;
+    border: 2px solid #2bb8aa;
+    border-bottom: 0;
+}
+.g-body .m-main .payment .payment-type .menu  .tab{
+	border: 2px solid transparent;
+}
+.g-body .m-main .payment .payment-type .tips{
+	position:absolute;
+	top: 15px;
+	right: 0;
+}
+.g-body .m-main .payment .payment-type .tips li{
+	margin-left: 10px;
+	font-size: 12px;
+	color: #666;
+}
+.g-body .m-main .payment .payment-type .tips li a{
+	color: #666;
+}
+.g-body .m-main .payment .payment-type .tips li a:hover{
+	color: #2bb8aa;
+}
+.g-body .m-main .payment .payment-type div.current{
+	display: block;
+}
+.g-body .m-main .payment .payment-type .paylist{
+	margin-top: 20px;
+	border-bottom: 1px solid #ddd;
+}
+.g-body .m-main .payment .payment-type .list2{
+	display: none;
+}
+.g-body .m-main .payment .payment-type .paylist  ul li{
+	width: 196px;
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+    cursor: pointer;
+}
+.g-body .m-main .payment .payment-type .paylist  ul li input{
+	display: table-cell;
+    vertical-align: middle;
+}
+.g-body .m-main .payment .payment-type .paylist  ul li .icon{
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 7px;
+    margin-right: 25px;
+    height: 32px;
+    float: right;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.g-body .m-main .payment .payment-type .paylist  ul li .icon img{
+	width: 145px;
+    height: 32px;
+}
+.g-body .m-main .payment .payment-type .paylist  ul li .icon:hover{
+	border: 1px solid #2bb8aa;
+} 
+.g-body .m-main .payment .mobile-type{
+	margin-top: 26px;
+    width: 178px;
+    border: 1px solid #e6e6e6;
+}
+.g-body .m-main .payment .mobile-type .text{
+	padding: 7px 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+.g-body .m-main .payment .mobile-type  .text span{
+	color: #2bb8aa;
+}
+  
+.g-body .m-main .payment .mobile-type  .text a{
+	color: #aaa;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.g-body .m-main .payment .mobile-type   .text a:hover{
+	color: #2bb8aa;
+}
+.g-body .m-main .payment .mobile-type .img{
+	width: 158px;
+    height: 158px;
+    padding: 10px;
+}
+.g-body .m-main .payment .phone{
+	margin-top: 26px;
+}
+.g-body .m-main .payment .mobile-type .img img{
+	width: 100%;
+}
+.g-body .m-main .payment .lastpay {
+	margin-top: 100px;
+	text-align: right;
+}
+.g-body .m-main .payment .lastpay .amount{
+	font-weight: 700;
+}
+.g-body .m-main .payment .lastpay .submit{
+	margin-top: 30px;
+}
+.g-body .m-main .payment .lastpay .submit a{
+	padding: 6px 20px 6px;
+	border-radius: 2px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #2bb8aa;
+    border-bottom: 1px solid #18655e;
+    background-image: linear-gradient(180deg,#2fc9b9,#29b0a2);
+
+}
+.g-body .m-main .payment .lastpay .submit a:hover{
+    background-color: #28ac9f;
+
+}
+.g-body .m-main .payment .lastpay .back{
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.g-body .m-main .payment .lastpay .back a{
+	color: #2bb8aa;
+}
+.g-body .m-main .payment .lastpay .back a:hover{
+	text-decoration: underline;
+}
+
+   
+
+
+
+
+
+
+   
+
+    
